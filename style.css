@@ -1,0 +1,250 @@
+.navbar-brand img{
+    width: 220px;
+}
+.n-color{
+    background-color:#dfdbfc;
+}
+.n-shadow a{
+    font-family:Arial,Tahoma,sans-serif;
+    font-size: 14px;
+    letter-spacing: .04rem;
+    font-weight: 600;
+    color: #343a40;
+    text-align: center;
+    border-radius: 2px;
+    margin: 0 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+    padding: 4px;
+    transition: ease-in-out all .1s;
+
+}
+.n-shadow a:hover{
+    box-shadow: 0px 6px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* carousel design */
+
+.carousel-inner .carousel-item{
+    height:470px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.clip-path{
+    
+    background-color: #582ab3;;
+    opacity: 80%;
+    color: #dfdbfc;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    clip-path: polygon(11% 0, 100% 0, 100% 90%, 0 90%);
+}
+
+
+
+/* about us design */
+
+.about-us{
+    background-color: #dfdbfc;
+    padding: 50px 0px;
+}
+.a-design{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    width: 100%;
+    color: #343a40;
+    line-height: 1.7rem;
+    letter-spacing: .04rem;
+    
+}
+.a-border{
+  align-items:flex-end;
+  margin-bottom:-25px ;
+}
+
+
+
+.a-border-1{
+ height: 1px;
+ background-color: #6c757d;
+}
+.a-d-2{
+    background-color: #6c757d;
+    height: 2px;
+    width: 100px;
+    margin: auto;
+}
+
+
+
+/* products design */
+
+.products{
+    background-color: #dfdbfc;
+}
+.product-1{
+    padding: 40px;
+    background-color: #f1effc;
+
+}
+.product-1 .row{
+    justify-content: space-between;
+
+}
+.products-5{
+    margin-bottom: 42px;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+    background-image: linear-gradient(to right, #582ab300, #dfdbfc);
+    transition: ease-in-out all .2s;
+}
+.products-5:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: linear-gradient(to right, #582ab300, #582ab369);
+}
+
+.products-5  h2{ 
+    opacity: 80%;
+    color: #343a40;
+    padding-top:30px;
+    transition: all ease-in .1s;
+}
+.products-5  h2:hover{
+opacity: 100%;
+color: #582ab3;
+}
+
+
+
+/* service design */
+.SERVICES{
+    background-color: #dfdbfc;
+
+}
+.service-2{
+    justify-content: space-between;
+}
+
+.card-1{
+    
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* Sustainability DESIGN */
+
+.Sustainability{
+    background-color: #dfdbfc;
+}
+.Sustainability-1{
+    background-color: #f1effc;
+}
+.img-botton{
+background-image: url(image/jeans-button.webp);
+width: 100%;
+height: 400px;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.list-1 ol li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* CERTIFICATIONS design */
+.CERTIFICATIONS{
+    background-color: #dfdbfc;
+}
+
+.CERTIFICATIONS-1 {
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+    background-image: linear-gradient(to right, #582ab300, #dfdbfc);
+}
+
+
+
+ /* footer design */
+
+ .footer{
+    background-color: #dfdbfc;
+}
+.bd{
+    /* padding: 20px; */
+    border: #6c757dd0 solid 1px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.color-1{
+ color: #343a40 !important;
+}
+
+.Social-Media{
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 2rem;
+}
+.Social-Media li a .fa-brands{
+    padding:12PX 7px;
+    color: #343a40;
+    text-decoration: none;
+     background-color: #dfdbfc;
+    border-radius: 8PX;
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out .2s;
+}
+.footer-2{
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+.Social-Media-1 li{
+    margin: 20px !important;
+}
+
+.Social-Media-1 a{
+    text-decoration: none;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+    padding: 5px 8px;
+    transition: ease-in-out all .2s;
+}
+.Social-Media-1 a:hover{
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.Social-Media li a .fa-facebook:hover{
+    color: 	#4267B2;
+    background-color: #d1e6d9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.Social-Media li a .fa-twitter-square:hover{
+color: #00acee ;
+background-color: #d1e6d9;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Social-Media li a .fa-youtube:hover{
+    color: #FF0000;
+    background-color: #d1e6d9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .Social-Media li a .fa-instagram-square:hover{
+        color: #3f729b;
+        background-color: #d1e6d9;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
